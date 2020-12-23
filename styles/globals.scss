@@ -1,0 +1,45 @@
+@import './components/colors';
+@import './components/fonts';
+
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/services';
+
+body {
+  background-color: $dark;
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    color: $primary;
+    font-family: $jetbrains;
+    font-size: 64px;
+  }
+
+  h2 {
+    color: white;
+    font-family: $jetbrains;
+    font-size: 48px;
+
+    &.accent {
+      color: $primary;
+    }
+  }
+
+  h3 {
+    color: white;
+    font-family: $jetbrains;
+    font-size: 30px;
+  }
+
+  p {
+    color: white;
+    font-family: $noto;
+    font-size: 18px;
+  }
+
+  .container {
+    margin: 20px 200px 20px 200px;
+  }
+}

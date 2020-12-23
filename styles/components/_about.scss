@@ -1,0 +1,20 @@
+.container-about {
+  display: flex;
+  flex-direction: column;
+  .container-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    h2 {
+      text-align: center;
+    }
+  }
+  .container-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 60px 30px 60px;
+  }
+  .icon {
+  }
+}
